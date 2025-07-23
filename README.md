@@ -6,3 +6,6 @@ Change hostname: hostnamectl : /etc/hostname  : /etc/host
 
 /etc/default/grub: After changing this file, run: grub2-mkconfig -o /boot/grub2/grub.cfg :  to update /boot/*.cfg
 
+/var/log/zypp/history
+zypper refresh  (to fix packages installed)
+
